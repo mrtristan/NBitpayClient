@@ -30,4 +30,4 @@ jobs:
           dotnet pack --no-build --configuration Release -o out
     - name: publish to nuget
       run: | 
-          dotnet nuget push ./NBitpayClient/out/CoreSaml2Utils.*.nupkg -k ${{ secrets.Nuget_tristan }} -s https://api.nuget.org/v3/index.json
+          dotnet nuget push ./NBitpayClient/out/*NBitpayClient.*.nupkg -k ${{ secrets.Nuget_tristan }} -s https://api.nuget.org/v3/index.json
