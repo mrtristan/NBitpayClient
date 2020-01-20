@@ -17,16 +17,16 @@ jobs:
       with:
         dotnet-version: 2.2.108
     - name: dotnet clean
-      run: |  
+      run: |
           dotnet clean
     - name: dotnet build
       run: |
           dotnet build --configuration Release
     - name: dotnet pack
-      run: |  
-          dotnet pack NBitpayClient/NBitpayClient.csproj --no-build --configuration Release -o out
+      run: |
+          dotnet pack NBitpayClient/NBitpayClient.csproj --no-build --configuration Release -o ./out
     - name: publish to nuget
-      run: | 
+      run: |
           pwd
           ls
           dotnet nuget push ./out/*NBitpayClient.*.nupkg -k ${{ secrets.Nuget_tristan }} -s https://api.nuget.org/v3/index.json
