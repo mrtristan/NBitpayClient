@@ -27,4 +27,6 @@ jobs:
           dotnet pack NBitpayClient/NBitpayClient.csproj --no-build --configuration Release -o out
     - name: publish to nuget
       run: | 
+          pwd
+          ls
           dotnet nuget push ./out/*NBitpayClient.*.nupkg -k ${{ secrets.Nuget_tristan }} -s https://api.nuget.org/v3/index.json
