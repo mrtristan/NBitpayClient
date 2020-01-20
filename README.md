@@ -1,4 +1,10 @@
-[![NuGet](https://img.shields.io/nuget/v/NBitpayClient.svg)](https://www.nuget.org/packages/NBitpayClient)
+![](https://github.com/mrtristan/NBitpayClient/workflows/.NET%20Core/badge.svg)
+[![NuGet version (MrTristan.NBitpayClient)](https://img.shields.io/nuget/v/MrTristan.NBitpayClient.svg)](https://www.nuget.org/packages/MrTristan.NBitpayClient/)
+
+# MrTristan.NBitpayClient
+> forked from https://github.com/MetacoSA/NBitpayClient
+
+publishing this repo to nuget for situations where updates are needed to the upstream that have not yet been merged
 
 # NBitpayClient
 
