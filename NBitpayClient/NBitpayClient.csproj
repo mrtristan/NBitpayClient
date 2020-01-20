@@ -6,10 +6,11 @@
 		<Version>1.0.0.35</Version>
 		<Copyright>Copyright © Metaco SA 2017</Copyright>
 		<Description>Non official .NET Bitpay API compatible client</Description>
+		<PackageId>MrTristan.NBitpayClient</PackageId>
 		<PackageTags>bitcoin</PackageTags>
-		<PackageProjectUrl>https://github.com/MetacoSA/NBitpayClient</PackageProjectUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<RepositoryUrl>https://github.com/MetacoSA/NBitpayClient</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/mrtristan/NBitpayClient</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<RepositoryUrl>https://github.com/mrtristan/NBitpayClient</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 	</PropertyGroup>
 
