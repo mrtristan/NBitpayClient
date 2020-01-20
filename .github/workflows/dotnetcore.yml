@@ -18,15 +18,12 @@ jobs:
         dotnet-version: 2.2.108
     - name: dotnet clean
       run: |  
-          cd src
           dotnet clean
     - name: dotnet build
       run: |
-          cd src
           dotnet build --configuration Release
     - name: dotnet pack
       run: |  
-          cd src
           dotnet pack NBitpayClient/NBitpayClient.csproj --no-build --configuration Release -o out
     - name: publish to nuget
       run: | 
